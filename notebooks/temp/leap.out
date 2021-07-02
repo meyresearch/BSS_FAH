@@ -1,0 +1,55 @@
+-I: Adding /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/prep to search path.
+-I: Adding /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/lib to search path.
+-I: Adding /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/parm to search path.
+-I: Adding /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/cmd to search path.
+-f: Source leap.txt.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./leap.txt
+----- Source: /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/lib/amino12.lib
+Loading library: /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/lib/aminoct12.lib
+Loading library: /Users/toni_brain/miniconda3/envs/BSS_FAH/dat/leap/lib/aminont12.lib
+Loading PDB file: ./leap.pdb
+  total atoms in file: 9292
+Checking Unit.
+
+/Users/toni_brain/miniconda3/envs/BSS_FAH/bin/teLeap: Warning!
+The unperturbed charge of the unit (-6.000000) is not zero.
+
+/Users/toni_brain/miniconda3/envs/BSS_FAH/bin/teLeap: Note.
+Ignoring the warning from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 1926 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CTHR	2
+	NSER	2
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 1; Notes = 1.
